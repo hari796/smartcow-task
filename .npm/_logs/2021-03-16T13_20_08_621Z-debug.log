@@ -1,0 +1,40 @@
+0 verbose cli [ '/usr/bin/node', '/bin/npm', 'start' ]
+1 info using npm@7.6.3
+2 info using node@v10.24.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+5 timing config:load:builtin Completed in 2ms
+6 timing config:load:cli Completed in 2ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:file:/root/DevOps-Assignment/sys-stats/.npmrc Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/root/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:cafile Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 9ms
+19 verbose npm-session 157d2513d993d155
+20 timing npm:load Completed in 20ms
+21 timing command:run-script Completed in 1ms
+22 timing command:start Completed in 3ms
+23 verbose stack JSONParseError: Unexpected string in JSON at position 848 while parsing '{
+23 verbose stack   "name": "sys-stats",
+23 verbose stack   "version": '
+23 verbose stack     at readFile.then.data (/usr/lib/node_modules/npm/node_modules/read-package-json-fast/index.js:6:44)
+24 verbose cwd /root/DevOps-Assignment/sys-stats
+25 verbose Linux 4.14.219-164.354.amzn2.x86_64
+26 verbose argv "/usr/bin/node" "/bin/npm" "start"
+27 verbose node v10.24.0
+28 verbose npm  v7.6.3
+29 error code EJSONPARSE
+30 error path /root/DevOps-Assignment/sys-stats/package.json
+31 error JSON.parse Unexpected string in JSON at position 848 while parsing '{
+31 error JSON.parse   "name": "sys-stats",
+31 error JSON.parse   "version": '
+32 error JSON.parse Failed to parse JSON data.
+32 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+33 verbose exit 1

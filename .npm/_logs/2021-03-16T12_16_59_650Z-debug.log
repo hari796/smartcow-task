@@ -1,0 +1,62 @@
+0 verbose cli [ '/usr/bin/node', '/bin/npm', 'cache', 'clean' ]
+1 info using npm@7.6.3
+2 info using node@v10.24.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 1ms
+6 timing config:load:cli Completed in 2ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:file:/root/DevOps-Assignment/sys-stats/.npmrc Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/root/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:cafile Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 9ms
+19 verbose npm-session ef5f9e4ac782835f
+20 timing npm:load Completed in 21ms
+21 timing command:cache Completed in 1ms
+22 verbose stack Error: As of npm@5, the npm cache self-heals from corruption issues
+22 verbose stack by treating integrity mismatches as cache misses.  As a result,
+22 verbose stack data extracted from the cache is guaranteed to be valid.  If you
+22 verbose stack want to make sure everything is consistent, use `npm cache verify`
+22 verbose stack instead.  Deleting the cache can only make npm go slower, and is
+22 verbose stack not likely to correct any problems you may be encountering!
+22 verbose stack
+22 verbose stack On the other hand, if you're debugging an issue with the installer,
+22 verbose stack or race conditions that depend on the timing of writing to an empty
+22 verbose stack cache, you can use `npm install --cache /tmp/empty-cache` to use a
+22 verbose stack temporary cache instead of nuking the actual one.
+22 verbose stack
+22 verbose stack If you're sure you want to delete the entire cache, rerun this command
+22 verbose stack with --force.
+22 verbose stack     at Cache.clean (/usr/lib/node_modules/npm/lib/cache.js:67:13)
+22 verbose stack     at Cache.cache (/usr/lib/node_modules/npm/lib/cache.js:50:27)
+22 verbose stack     at Cache.exec (/usr/lib/node_modules/npm/lib/cache.js:43:10)
+22 verbose stack     at Object.[_runCmd] (/usr/lib/node_modules/npm/lib/npm.js:112:12)
+22 verbose stack     at target.(anonymous function).Proxy (/usr/lib/node_modules/npm/lib/npm.js:28:35)
+22 verbose stack     at Object.npm.load (/usr/lib/node_modules/npm/lib/cli.js:58:7)
+23 verbose cwd /root/DevOps-Assignment/sys-stats
+24 verbose Linux 4.14.219-164.354.amzn2.x86_64
+25 verbose argv "/usr/bin/node" "/bin/npm" "cache" "clean"
+26 verbose node v10.24.0
+27 verbose npm  v7.6.3
+28 error As of npm@5, the npm cache self-heals from corruption issues
+28 error by treating integrity mismatches as cache misses.  As a result,
+28 error data extracted from the cache is guaranteed to be valid.  If you
+28 error want to make sure everything is consistent, use `npm cache verify`
+28 error instead.  Deleting the cache can only make npm go slower, and is
+28 error not likely to correct any problems you may be encountering!
+28 error
+28 error On the other hand, if you're debugging an issue with the installer,
+28 error or race conditions that depend on the timing of writing to an empty
+28 error cache, you can use `npm install --cache /tmp/empty-cache` to use a
+28 error temporary cache instead of nuking the actual one.
+28 error
+28 error If you're sure you want to delete the entire cache, rerun this command
+28 error with --force.
+29 verbose exit 1
